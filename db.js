@@ -3,7 +3,10 @@ const fs = require("fs");
 const path = require("path");
 
 // server.js requires this file before it creates the data folder, so make it here too
-const dir = path.join(__dirname, "data");
+const dir = process.env.VERCEL
+    ? "/tmp/coursespec-data"
+    : path.join(__dirname, "data");
+
 fs.mkdirSync(dir, { recursive: true });
 
 const db = new Database(path.join(dir, "coursespec.db"));
