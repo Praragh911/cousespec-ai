@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CourseSpec AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@0.453.0/dist/umd/lucide.min.js"></script>
+</head>
+
+<body>
+    <div id="scrim"></div>
+    <aside id="side">
+        <div class="brand"><span class="logo"><i data-lucide="wand-2"></i></span><b>CourseSpec <span
+                    class="ac">AI</span></b></div>
+        <button class="org"><span class="nu">NU</span><span><b>Northbridge University</b><small>Academic Quality
+                    Office</small></span></button>
+        <p class="cap">WORKSPACE</p>
+        <nav>
+            <a data-r="overview"><i data-lucide="layout-grid"></i>Overview</a>
+            <a data-r="documents"><i data-lucide="folder-open"></i>My Documents</a>
+            <a data-r="new"><i data-lucide="file-plus-2"></i>New Audit</a>
+            <a data-r="mapping"><i data-lucide="table-2"></i>Outcome Mapping</a>
+            <a data-r="templates"><i data-lucide="library"></i>Templates</a>
+            <a data-r="history"><i data-lucide="history"></i>Audit History</a>
+        </nav>
+        <div class="grow"></div>
+        <div class="plan"><b><i data-lucide="sparkles"></i> 8 audits remaining</b><small>Resets on June 1</small>
+            <div class="bar"><i style="width:60%"></i></div><a class="lnk">Manage plan</a>
+        </div>
+        <nav><a><i data-lucide="help-circle"></i>Help &amp; resources</a><a><i data-lucide="settings"></i>Settings</a>
+        </nav>
+        <div class="me"><span class="av">AM</span><span><b>Dr. Aisha Mehta</b><small>Quality Coordinator</small></span>
+        </div>
+    </aside>
+    <div id="shell">
+        <header>
+            <button id="menu" aria-label="Open menu"><i data-lucide="menu"></i></button>
+            <span id="crumb"></span><span class="grow"></span>
+            <span class="search"><i data-lucide="search"></i>Search<kbd>⌘K</kbd></span>
+            <button class="bell" id="bell" aria-label="Notifications"><i data-lucide="bell"></i></button>
+        </header>
+        <main id="view"></main>
+    </div>
+    <div id="toast" role="status"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>

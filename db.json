@@ -1,0 +1,458 @@
+[
+  {
+    "id": "cs201",
+    "program": "B.Tech. Computer Science",
+    "year": "2025–26",
+    "semester": "Semester 3",
+    "credits": 4,
+    "code": "CS201",
+    "title": "Data Structures and Algorithms",
+    "base": 91,
+    "status": "Ready to export",
+    "file": null,
+    "updated": "2026-10-29T06:25:55.187Z",
+    "findings": [
+      {
+        "id": 1,
+        "severity": "Critical",
+        "title": "Course outcome CO3 is not measurable",
+        "where": "Section 4.2 · Course Outcomes · Page 3",
+        "detail": "The verb “understand” cannot be assessed objectively. Replace it with an observable action verb aligned to Bloom’s taxonomy.",
+        "original": "CO3: Understand appropriate algorithmic strategies for real-world constraints.",
+        "suggestion": "CO3: Select appropriate algorithmic strategies for real-world constraints.",
+        "outcome": {
+          "co": "CO3",
+          "text": "Select appropriate algorithmic strategies for real-world constraints.",
+          "bloom": "L3"
+        }
+      },
+      {
+        "id": 2,
+        "severity": "Warning",
+        "title": "Lecture hours do not reconcile",
+        "where": "Section 5.1 · Course Content · Page 4",
+        "detail": "Unit-wise lecture hours total 43, while the course structure declares 45 contact hours.",
+        "original": "Unit V: Hashing and Graph Algorithms (7 hours)",
+        "suggestion": "Unit V: Hashing and Graph Algorithms (9 hours)"
+      },
+      {
+        "id": 3,
+        "severity": "Warning",
+        "title": "Assessment weightage is incomplete",
+        "where": "Section 7 · Assessment · Page 6",
+        "detail": "Internal and end-semester weightages add up to 90%. They should total 100%.",
+        "original": "Continuous assessment 40% · End-semester examination 50%",
+        "suggestion": "Continuous assessment 50% · End-semester examination 50%"
+      },
+      {
+        "id": 4,
+        "severity": "Suggestion",
+        "title": "Inconsistent course code format",
+        "where": "Section 1 · Header · Page 1",
+        "detail": "The course code appears as “CS 201” in the header and “CS201” in the table.",
+        "original": "Course Code: CS 201",
+        "suggestion": "Course Code: CS201"
+      }
+    ],
+    "decisions": {},
+    "edits": {},
+    "matrix": [
+      [
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        1,
+        3,
+        0,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        3,
+        1,
+        3,
+        3
+      ]
+    ],
+    "just": {
+      "CO2-PO2": "Students analyze complex computational problems and select suitable data structures to implement.",
+      "CO1-PSO1": "Efficiency analysis directly supports the program’s core computing specialization."
+    }
+  },
+  {
+    "id": "cs305",
+    "program": "B.Tech. Computer Science",
+    "year": "2025–26",
+    "semester": "Semester 3",
+    "credits": 4,
+    "code": "CS305",
+    "title": "Database Management Systems",
+    "base": 76,
+    "status": "Needs review",
+    "file": null,
+    "updated": "2026-10-28T04:25:55.188Z",
+    "findings": [
+      {
+        "id": 1,
+        "severity": "Critical",
+        "title": "Course outcome CO3 is not measurable",
+        "where": "Section 4.2 · Course Outcomes · Page 3",
+        "detail": "The verb “understand” cannot be assessed objectively. Replace it with an observable action verb aligned to Bloom’s taxonomy.",
+        "original": "CO3: Understand appropriate algorithmic strategies for real-world constraints.",
+        "suggestion": "CO3: Select appropriate algorithmic strategies for real-world constraints.",
+        "outcome": {
+          "co": "CO3",
+          "text": "Select appropriate algorithmic strategies for real-world constraints.",
+          "bloom": "L3"
+        }
+      },
+      {
+        "id": 2,
+        "severity": "Warning",
+        "title": "Lecture hours do not reconcile",
+        "where": "Section 5.1 · Course Content · Page 4",
+        "detail": "Unit-wise lecture hours total 43, while the course structure declares 45 contact hours.",
+        "original": "Unit V: Hashing and Graph Algorithms (7 hours)",
+        "suggestion": "Unit V: Hashing and Graph Algorithms (9 hours)"
+      },
+      {
+        "id": 3,
+        "severity": "Warning",
+        "title": "Assessment weightage is incomplete",
+        "where": "Section 7 · Assessment · Page 6",
+        "detail": "Internal and end-semester weightages add up to 90%. They should total 100%.",
+        "original": "Continuous assessment 40% · End-semester examination 50%",
+        "suggestion": "Continuous assessment 50% · End-semester examination 50%"
+      },
+      {
+        "id": 4,
+        "severity": "Suggestion",
+        "title": "Inconsistent course code format",
+        "where": "Section 1 · Header · Page 1",
+        "detail": "The course code appears as “CS 201” in the header and “CS201” in the table.",
+        "original": "Course Code: CS 201",
+        "suggestion": "Course Code: CS201"
+      }
+    ],
+    "decisions": {},
+    "edits": {},
+    "matrix": [
+      [
+        3,
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        1,
+        3,
+        0,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        3,
+        1,
+        3,
+        3
+      ]
+    ],
+    "just": {
+      "CO2-PO2": "Students analyze complex computational problems and select suitable data structures to implement.",
+      "CO1-PSO1": "Efficiency analysis directly supports the program’s core computing specialization."
+    }
+  },
+  {
+    "id": "ec204",
+    "program": "B.Tech. Electronics",
+    "year": "2025–26",
+    "semester": "Semester 3",
+    "credits": 4,
+    "code": "EC204",
+    "title": "Digital Signal Processing",
+    "base": 88,
+    "status": "Audit complete",
+    "file": null,
+    "updated": "2026-10-24T07:25:55.188Z",
+    "findings": [
+      {
+        "id": 1,
+        "severity": "Critical",
+        "title": "Course outcome CO3 is not measurable",
+        "where": "Section 4.2 · Course Outcomes · Page 3",
+        "detail": "The verb “understand” cannot be assessed objectively. Replace it with an observable action verb aligned to Bloom’s taxonomy.",
+        "original": "CO3: Understand appropriate algorithmic strategies for real-world constraints.",
+        "suggestion": "CO3: Select appropriate algorithmic strategies for real-world constraints.",
+        "outcome": {
+          "co": "CO3",
+          "text": "Select appropriate algorithmic strategies for real-world constraints.",
+          "bloom": "L3"
+        }
+      },
+      {
+        "id": 2,
+        "severity": "Warning",
+        "title": "Lecture hours do not reconcile",
+        "where": "Section 5.1 · Course Content · Page 4",
+        "detail": "Unit-wise lecture hours total 43, while the course structure declares 45 contact hours.",
+        "original": "Unit V: Hashing and Graph Algorithms (7 hours)",
+        "suggestion": "Unit V: Hashing and Graph Algorithms (9 hours)"
+      },
+      {
+        "id": 3,
+        "severity": "Warning",
+        "title": "Assessment weightage is incomplete",
+        "where": "Section 7 · Assessment · Page 6",
+        "detail": "Internal and end-semester weightages add up to 90%. They should total 100%.",
+        "original": "Continuous assessment 40% · End-semester examination 50%",
+        "suggestion": "Continuous assessment 50% · End-semester examination 50%"
+      },
+      {
+        "id": 4,
+        "severity": "Suggestion",
+        "title": "Inconsistent course code format",
+        "where": "Section 1 · Header · Page 1",
+        "detail": "The course code appears as “CS 201” in the header and “CS201” in the table.",
+        "original": "Course Code: CS 201",
+        "suggestion": "Course Code: CS201"
+      }
+    ],
+    "decisions": {},
+    "edits": {},
+    "matrix": [
+      [
+        3,
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        1,
+        3,
+        0,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        3,
+        1,
+        3,
+        3
+      ]
+    ],
+    "just": {
+      "CO2-PO2": "Students analyze complex computational problems and select suitable data structures to implement.",
+      "CO1-PSO1": "Efficiency analysis directly supports the program’s core computing specialization."
+    }
+  },
+  {
+    "id": "me102",
+    "program": "B.Tech. Mechanical",
+    "year": "2025–26",
+    "semester": "Semester 3",
+    "credits": 4,
+    "code": "ME102",
+    "title": "Engineering Mechanics",
+    "base": 64,
+    "status": "Issues found",
+    "file": null,
+    "updated": "2026-10-22T05:25:55.188Z",
+    "findings": [
+      {
+        "id": 1,
+        "severity": "Critical",
+        "title": "Course outcome CO3 is not measurable",
+        "where": "Section 4.2 · Course Outcomes · Page 3",
+        "detail": "The verb “understand” cannot be assessed objectively. Replace it with an observable action verb aligned to Bloom’s taxonomy.",
+        "original": "CO3: Understand appropriate algorithmic strategies for real-world constraints.",
+        "suggestion": "CO3: Select appropriate algorithmic strategies for real-world constraints.",
+        "outcome": {
+          "co": "CO3",
+          "text": "Select appropriate algorithmic strategies for real-world constraints.",
+          "bloom": "L3"
+        }
+      },
+      {
+        "id": 2,
+        "severity": "Warning",
+        "title": "Lecture hours do not reconcile",
+        "where": "Section 5.1 · Course Content · Page 4",
+        "detail": "Unit-wise lecture hours total 43, while the course structure declares 45 contact hours.",
+        "original": "Unit V: Hashing and Graph Algorithms (7 hours)",
+        "suggestion": "Unit V: Hashing and Graph Algorithms (9 hours)"
+      },
+      {
+        "id": 3,
+        "severity": "Warning",
+        "title": "Assessment weightage is incomplete",
+        "where": "Section 7 · Assessment · Page 6",
+        "detail": "Internal and end-semester weightages add up to 90%. They should total 100%.",
+        "original": "Continuous assessment 40% · End-semester examination 50%",
+        "suggestion": "Continuous assessment 50% · End-semester examination 50%"
+      },
+      {
+        "id": 4,
+        "severity": "Suggestion",
+        "title": "Inconsistent course code format",
+        "where": "Section 1 · Header · Page 1",
+        "detail": "The course code appears as “CS 201” in the header and “CS201” in the table.",
+        "original": "Course Code: CS 201",
+        "suggestion": "Course Code: CS201"
+      }
+    ],
+    "decisions": {},
+    "edits": {},
+    "matrix": [
+      [
+        3,
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        1,
+        3,
+        0,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        3,
+        1,
+        3,
+        3
+      ]
+    ],
+    "just": {
+      "CO2-PO2": "Students analyze complex computational problems and select suitable data structures to implement.",
+      "CO1-PSO1": "Efficiency analysis directly supports the program’s core computing specialization."
+    }
+  }
+]
