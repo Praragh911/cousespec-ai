@@ -327,7 +327,7 @@ app.get("/api/templates", (req, res) => res.json([
     { name: "Northbridge Standard Course Specification", meta: "DOCX · 18 required sections · Default", used: 124 },
     { name: "Outcome-Based Education (OBE) Format", meta: "PDF · 15 required sections", used: 41 },
     { name: "Lab Course Specification", meta: "DOCX · 14 required sections", used: 17 },
-]));
+]);
 
 const upload = multer({
     dest: uploadsDir,
